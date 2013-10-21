@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_25794</stopid>
+    <routeid>1_68</routeid>
+    <id>1_68</id>
+    <shortname>68</shortname>
+    <longname>Northgate to UW Campus via 25 NE</longname>
+    <description>Northgate to UW Campus via 25 NE</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s068_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>uizaHvupiVMW@mCc@?_@?s@Ca@?cEC_CC@sB@qB?W?yA@qB?K|B?BgAFa@J[b@uADa@H_A?StCD\@P?dB?hA@NKZ_@TY`@m@Xi@b@kAPs@RsAJwABeBG{AGw@Mq@IUI[Ma@a@w@c@o@i@i@[S?AQKUIWIi@MQCWAwA@QASEg@S}@}@SMcAMa@EkADmAP_@Lo@N_@Ba@C_A]BQCWmAiFOc@O[g@g@KCMCyEoBe@GcA@QAYUO]{@gBIi@Cg@yA?i@?O?iJ?A?e@AU?sD@I?O?aAE{Do@q@Eq@?S?uIBkB?eH@oL@eJ?iH?cA?kJCiJDkOLkED?P?dE?vE?vE?fC?dC?jG?B?fB?pB?bB?pB?rB?`B?vE?bE?N?L?~AAlB?hB?fB?pE?dFAj@@XAL?P@LAd@?x@G?_CBeF@E?iA@qCBiA?cA@sCBoC@gA?iA?oC@oCBwD?aB?sA?uDCuD?uD?uDAuD?uD?{A@yAByA@{AB{A@yA@wA@}ABuDBsDDuDDsDDsD@{FBqB@wD@C|OA|OnCCfBA`AC\?fCEP?J?xECjDCH?tDAAtFAzGCbHv@O^?zBEl@?</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_25794</stopid>
+    <routeid>1_83</routeid>
+    <id>1_83</id>
+    <shortname>83</shortname>
+    <longname>Univ Dist/Ravenna Night Owl</longname>
+    <description>Univ Dist/Ravenna Night Owl</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s083_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>qt~aHv~niVG`@?rA?hB?lB@jB@fB@jB?hB?lB?fB?jBtB?rAAJ?fA?hA?p@?nHAR?z@jA`BxBLPHDNBX?h@?jGArD?D?~KBpHDhJDjJDfHFfHFfHBzBFAbFAtBApB?bFA`D@`@BT@RBLDRHTFNLLHFHDJ@PARCRAN?H@HBH@LBHFl@`@dBnAFDJFd@\NLb@ZTLv@l@TNDB`@V~@r@FDnBtAFB~@r@PJTR^VTRzDlCfAx@p@b@f@`@^VRNdCdBjClBdCfBrBxApFvD`F?bG@hF?jM?fH?`H?PA`Dw@jEkAhEjAlFdARD~@PF~@JVhA~A|@lAfGrIrG`JX`@rD`FfBbCRXbDrEr@x@b@r@NQJMLGTArA?N?bB?\?Z?zD?V?N?|E?hF?hFE`F?`C?DIZm@xCeGFJx@hAbAtA`AtA`AvA|@lAdA|AdAtA|@rAbAtA`AtA`ArA~@G@?RCb@AVMt@o@f@c@b@a@d@a@HGHK|DkDdEuDl@lBl@nB</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_25794</stopid>
+    <routeid>1_243</routeid>
+    <id>1_243</id>
+    <shortname>243</shortname>
+    <longname>Jackson Park to Wilburton P&amp;R</longname>
+    <description>Jackson Park to Wilburton P&amp;R</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s243_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>cmpaH~cwhV^hAL`@`@rAbChHZhAZbB@RHz@HlB?|@AfIi@Bc@?wDAQ?a@?_A@wFBuEDsJ@uFFeB?W?eC?{FFcCD{D?oABmAFwC?YCoABaB?CrFAxBAdDJ\DV?~@A~A?lD?~AA^GTw@BqD?sCBK?M?uECgC?DlDAnCAbAAlD@rFFnGyFCsBBsGCmGCuB?wC?aA?_AC{EBkF?]?kB?sD?iA?_B?}GCqC?kC?kA?eDAqA?kA@Y?g@?_ABwB?qB?_@?c@?_A?gA?w@E}ASeAQeAUa@MsAU_AMo@Ei@Bi@Be@Jm@NyBn@q@PeAGg@@QAKIKICIEGCOAM?S@QBMFM@CDCpAkAHEFCJ?HBJFJJDJDJ@NBP?TMfAGb@AJCPAPCRCd@Y|DEdBCb@Ch@AVIlAWtECn@Cf@El@Cf@AJAREfBAd@A`@AbA@xAD~@?LB~@Hz@Fr@Dh@BNNnAJn@Jp@DTRbAP~@^~A\|A\tAF`@Pr@^jBj@hCpEvSx@nDd@pBX`APl@Xx@Zt@Xl@FL^r@Xf@^p@pEpH|@xAJNl@hALVTh@R`@BDTj@Rl@d@~ARz@BJLl@??\nBTfBJdAHjADj@Bx@@z@@j@@h@Ar@CtACp@G`BWlDEj@_@vEOtBKdA_@|EQ|BS|@QpAYpBK~@El@Gd@C^C~@CxACdA?l@_BvRm@lHaAtLo@xHKxAqArOwGrx@CNy@vJ?D}Ejl@KbBgArMiBjUOpAE\Gl@ObA]lBe@vBYhAYhA]zAQx@SdASnAKr@K`AI|@Iz@MzBAj@I`CGjCUhI?JOxFKzCEvBGvBU`IOtEEtB?NI|B?DOfFInCO~BExACjCCzBA`C?jBDtBNzBTlB`@`Ch@jDJ~@F`ABjA?@@f@?Z?@?h@CrAIjDGx@Kj@Sb@WZ_@JM@cALk@?OBuADE?OL}GC_A?kCBQ?MHiASu@Ik@Ki@Og@Oe@Oe@WkAg@{BeAWMcAc@YIg@Sm@OMCIAKAuBa@q@MmCi@oBc@iCg@aAS]GC?WIwBa@gFaAEAG?g@O[Kg@OaA[UAk@GmBSWCQCu@Ec@AyA?i@?O?iJ?A?e@AU?sD@I?O?aAE{Do@q@Eq@?S?uIBkB?eH@oL@eJ?iH?cA?kJCiJDkOLkEDmCD{EDsIDWBoCbBs@d@A?k@PW@w@Dc@GI?ECsD[o@E{@Rw@VwDdA}C|@k@RaD|@aAZUP_BrB_ChD}AtBQRUJgBf@WR]Nc@Te@P_@?cAIeAOaA[yAs@yAeAiDoCGGuDyCsDyCyAkAyAs@_Be@uAS{@CwD@_B?K?sA@sH?yAC{AMcDc@oBe@yAc@wAk@iB{@eI}D}DqBeAg@mDgB_Bu@UMaDaB{FqCyAs@QKeAi@CRILIFGDgEGgAC?~CArB?T?N?vBAvB?xAAvC?R?P?rGAjEA~DAnCAbC?hC?hBAdDClJ?lDAtD?xAE~BAlCAnGBtCAzB?vCAdDKfAO|@_@xAa@`ACBu@fAwFnKaFdJYj@Q\KPGJUb@IVGVwCAsB?oB?ue@GkHBe@Bw@@E?aCB]???M?O@O?</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_75403</stopid>
+    <routeid>1_25</routeid>
+    <id>1_25</id>
+    <shortname>25</shortname>
+    <longname>Laurelhurst-Lakeview</longname>
+    <description>Laurelhurst-Lakeview</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s025_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>m`paHbksiVyAxAOT}@pCIVKTS\YTEB{BrBMJGFeCxB]XoBfBoC`CmCbCmC`CoC`CmC`CeEvDgErDwChCm@j@qDpDm@_A_AsCk@gBk@iBKWK_@mAwDm@mBm@mBm@sBm@kBsAaBmAuAw@kAcAyAeA}AcAsAaAwAcAsAaAwAaAsAYa@g@s@SIKE{AK_@ImEHO?{E?eFBgF?cC?_B@uAAw@CKIICKEM?}D@_@?uG?MAGCEAOMEGKQGY?AIq@EYGo@Ga@Io@Io@?Q@YaBgCwAwAcIqIs@y@_@Ue@My@Bc@Ie@Q_@e@KMe@k@w@uAo@m@q@]s@MS?}CCG?q@?_@?wC?[BQDKFSVOPEDi@t@u@v@ORSJUL[?gFC{CAiCC_@?kL?wEGOGAc@?o@?_@?y@?e@?m@aGBaF?sF?Q?uA?}A?{A?sACwEgD}DqCjC_CPMvF}Ep@o@b@_@xAqArAkA`A}@PMLELE@?TA|EB`F?lC?NGJI|AuBb@k@?ALOlBiC|@gAlAyBxBuDjCqEJYzBiGPc@BK@cJ?yIqC?gA?iA?sAA?C{@aAqCmDyAeBe@q@IM?AAQ?oD?wA?gC_@n@[d@]d@KLWZUTUTOLIFE@IFGDSHMFc@P[KQ?[Du@@c@?W?k@?OBuADE?OL}GC_A?kCBQ?MHY^Uh@_B~Dw@rBUf@sAdD_@~@_A|BaAhCuCfHITcAhCcBzDqAvCITOd@Gh@E\Ab@A`@?p@c@?_@?s@Ca@?cEC_CC@sB@qB?W?yA@qB?K|B?BgAFa@J[b@uADa@H_A?StCD\@P?dB?hA@NKZ_@TY`@m@Xi@b@kAPs@RsAJwABeBG{AGw@Mq@IUI[Ma@a@w@c@o@i@i@[S?AQKUIWIi@MQCWAwA@QASEg@S}@}@SMcAMa@EkADmAP_@Lo@N_@Ba@C_A]BQCWmAiFOc@O[g@g@KCMCyEoBe@GcA@QAYUO]{@gBIi@Cg@@yBDSXe@Ke@Se@GMYs@EQSo@[yASiAIs@Gu@Cy@AsACUCY?qCCiR@uAP}R?q@AaBGy@Gk@KgAUwAR]D]AgLAsG?_C?_CAmC?oC?eA?mBSBIDELAPAV@VBHJFT@</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_75403</stopid>
+    <routeid>1_31</routeid>
+    <id>1_31</id>
+    <shortname>31</shortname>
+    <longname>Magnolia to University</longname>
+    <description>Magnolia to University</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s025_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>grwaHft`jV^IdGeEHSr@e@j@_@^URCFCpBqAxCoBb@[ZS^_@LOTi@DODi@FWFm@|B?r@BD??sFJWg@m@wCoD{@}@WUcAu@KGc@_@a@YS_@yBiBoCkBoCkBoCkBWO[SeAs@s@a@eAs@_@Is@g@uBwAA?yCuB{CqBi@HaIBmJ@q@?cIBuJ?oJ@yGAw@IYAqE`D{ApB{@jAOREOQaACMACEYEUIi@C_@@S@WB_@Ly@?Ah@cCf@_CZeA`@aA|@uAdC{DV]N[L_@Ny@@K?sA?e@?mG?cAD}ABW@GDKDMFM?CJIFGXEFCVCPGLKNQJSDYD[Bc@?]@U?MAI?E@U@]C[Qs@MW[MC?WCQBQDcAl@GBs@Zs@CMCA?[QOOQWUk@Qc@Qu@Kk@E]COMmACYGUAa@@e@@a@D_@Ja@FQb@}@xAwCvDwH@AbHuNhCuQbDoUnAeJl@cBpAsDp@gBVw@|@eCvAaEt@uBN_@jBkFxAaEv@yB^cAfBeFt@eBUBgA?u@?I?_@?E?G?E?W?s@?_@?}@Cq@?aA?oB?s@?e@BsCLU@C?MBjAqN?I@MjAqNRoCLkAZeDBQ}EIsLWyGMkBCoCIAQGe@UwBSuBE]?wDBwF?oF@mF?oFDuFDoF@mF@mF@oF?gF@uE?aC@}A@aF?qABuA?mAAmC^?pCDT??I?M?S?U@aA@aF?YCi@Eg@CeA?a@PgAPs@BMH_@VaA`@y@Zs@Ra@XmABQFm@@}@@I?Q?_@B}FMW@mCc@?_@?s@Ca@?cEC_CC@sB@qB?W?yA@qB?Km@AA|E?R</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_75403</stopid>
+    <routeid>1_68</routeid>
+    <id>1_68</id>
+    <shortname>68</shortname>
+    <longname>Northgate to UW Campus via 25 NE</longname>
+    <description>Northgate to UW Campus via 25 NE</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s068_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>uizaHvupiVMW@mCc@?_@?s@Ca@?cEC_CC@sB@qB?W?yA@qB?K|B?BgAFa@J[b@uADa@H_A?StCD\@P?dB?hA@NKZ_@TY`@m@Xi@b@kAPs@RsAJwABeBG{AGw@Mq@IUI[Ma@a@w@c@o@i@i@[S?AQKUIWIi@MQCWAwA@QASEg@S}@}@SMcAMa@EkADmAP_@Lo@N_@Ba@C_A]BQCWmAiFOc@O[g@g@KCMCyEoBe@GcA@QAYUO]{@gBIi@Cg@yA?i@?O?iJ?A?e@AU?sD@I?O?aAE{Do@q@Eq@?S?uIBkB?eH@oL@eJ?iH?cA?kJCiJDkOLkED?P?dE?vE?vE?fC?dC?jG?B?fB?pB?bB?pB?rB?`B?vE?bE?N?L?~AAlB?hB?fB?pE?dFAj@@XAL?P@LAd@?x@G?_CBeF@E?iA@qCBiA?cA@sCBoC@gA?iA?oC@oCBwD?aB?sA?uDCuD?uD?uDAuD?uD?{A@yAByA@{AB{A@yA@wA@}ABuDBsDDuDDsDDsD@{FBqB@wD@C|OA|OnCCfBA`AC\?fCEP?J?xECjDCH?tDAAtFAzGCbHv@O^?zBEl@?</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_75403</stopid>
+    <routeid>1_65</routeid>
+    <id>1_65</id>
+    <shortname>65</shortname>
+    <longname>NTC to UW</longname>
+    <description>NTC to UW</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s065_0_.html&lt;/</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>i|hbHdnliVGkAEgEiIHc@BmJHqGHs@?c@B?j@AfFAlGAvD?r@?b@H?L?|D@rC@dH?dAGnFGh@A@?J?xCEvGCfJCfJEjJAfJE?wE?W?QB}E?wB?sB?_C@eGf@HtCz@rA`@LBbBHhJZfDH^CXERIZMhDqBj@U\Gh@ArCCz@BJ?|GFfJHzHHx@BvIHlDGlDGb@AzIOtDGzCIZ?|DEnC?^?tC@^AnBCdABfA@@?hB?f@@nC@nCDpCBpC@nCDnC@lDEpDCnDEPC~CCjJKfJIjJKjJIhJIjJIfJCnJCjJEhJA?mB?q@?_A?mB?_@?mA?qB?M?}A?oB?M?aB?wDfDAh@?b@?F?N?F?T?lDCxFA@?|A?^?|B?tAA`@?tBvBf@l@d@j@h@|@Xp@Zx@Tz@Lf@TvAJfAFj@Fx@@`B?p@Q|RAtABhR?pCI`@?\?f@BdADbAHz@Hf@Hn@Ll@Nl@Rl@Nh@Th@LVNRVJYd@ERAxBBf@Hh@z@fBN\XTP@bAAd@FxEnBLBJBf@f@NZNb@lAhFBVCP~@\`@B^Cn@O^MlAQjAE`@DbALRL|@|@f@RRDP@vAAV@PBh@LVHTHPJ?@ZRh@h@b@n@`@v@L`@HZHTLp@Fv@FzACdBKvASrAQr@c@jAYh@a@l@UX[^OJiAAeB?Q?]AuCE?RI~@E`@c@tAKZG`@CfA}B?m@AA|E?RAbF</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+  <SpGetBusRoutesAtAStop>
+    <stopid>1_75403</stopid>
+    <routeid>1_75</routeid>
+    <id>1_75</id>
+    <shortname>75</shortname>
+    <longname>UW - NTC - Ballard</longname>
+    <description>UW - NTC - Ballard</description>
+    <type>3</type>
+    <url>http://metro.kingcounty.gov/tops/bus/schedules/s075_0_.html</url>
+    <agencyId>1</agencyId>
+    <encodedPolyline>c{gbHlkliV?tGBlD?hACjBjJAfJE?wE?W?QB}E?wB?sB?_C@eG@aH@aD?g@@eE@oEBgAFk@Lm@H]Vw@Va@X[NQJKTKpE{BlGaDpEyBzCCvA?hG_C??dE{AnCeAfJkDvJoD|HyCdAg@bBkAj@_@TGXILA`@CxDBlD@zD@fJDtHBJAb@E^IZSxBaBVS@?NKDEp@e@p@g@vEiDn@o@p@aA`@w@\y@X}@nAkFxB_Jb@sAZy@HQVg@lBiDv@wAt@mAT[b@o@X]`@e@n@m@v@s@JIZWhEoDbAq@|@e@lBu@FCTE~C}@z@UpAa@nAWzDgAh@WjBwAj@Wb@K\EjBAxACdAA|@?hNIrBAdLIpCAj@?b@DNFVH^\BHRr@xCtElBxCR\`D`FdBlCZd@lAjB\f@bBjC`AzA~C~E|ExHZn@Xt@HZRt@@@Jr@Hj@Dv@DfA?dAE|@E`AMfEC~@@t@?`AHvAHnAPdAPt@Z`A@?Zr@`@p@j@n@j@j@TV~@`ApBtBbAfAVXpArAHJzAzAj@p@`@^bBjBf@h@fBjB@@n@ZtBvBf@l@d@j@h@|@Xp@Zx@Tz@Lf@TvAJfAFj@Fx@@`B?p@Q|RAtABhR?pCI`@?\?f@BdADbAHz@Hf@Hn@Ll@Nl@Rl@Nh@Th@LVNRVJYd@ERAxBBf@Hh@z@fBN\XTP@bAAd@FxEnBLBJBf@f@NZNb@lAhFBVCP~@\`@B^Cn@O^MlAQjAE`@DbALRL|@|@f@RRDP@vAAV@PBh@LVHTHPJ?@ZRh@h@b@n@`@v@L`@HZHTLp@Fv@FzACdBKvASrAQr@c@jAYh@a@l@UX[^OJiAAeB?Q?]AuCE?RI~@E`@c@tAKZG`@CfA}B?m@AA|E?R</encodedPolyline>
+  </SpGetBusRoutesAtAStop>
+</DocumentElement>

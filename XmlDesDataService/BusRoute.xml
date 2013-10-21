@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfBusRoute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BusRoute>
+    <Id>Id0</Id>
+    <ShortName>ShortName0</ShortName>
+    <Description>Description0</Description>
+    <Type>0</Type>
+    <EncodedPolyline>EncodedPolyline0</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id1</Id>
+    <ShortName>ShortName1</ShortName>
+    <Description>Description1</Description>
+    <Type>1</Type>
+    <EncodedPolyline>EncodedPolyline1</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id2</Id>
+    <ShortName>ShortName2</ShortName>
+    <Description>Description2</Description>
+    <Type>2</Type>
+    <EncodedPolyline>EncodedPolyline2</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id3</Id>
+    <ShortName>ShortName3</ShortName>
+    <Description>Description3</Description>
+    <Type>3</Type>
+    <EncodedPolyline>EncodedPolyline3</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id4</Id>
+    <ShortName>ShortName4</ShortName>
+    <Description>Description4</Description>
+    <Type>4</Type>
+    <EncodedPolyline>EncodedPolyline4</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id5</Id>
+    <ShortName>ShortName5</ShortName>
+    <Description>Description5</Description>
+    <Type>5</Type>
+    <EncodedPolyline>EncodedPolyline5</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id6</Id>
+    <ShortName>ShortName6</ShortName>
+    <Description>Description6</Description>
+    <Type>6</Type>
+    <EncodedPolyline>EncodedPolyline6</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id7</Id>
+    <ShortName>ShortName7</ShortName>
+    <Description>Description7</Description>
+    <Type>7</Type>
+    <EncodedPolyline>EncodedPolyline7</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id8</Id>
+    <ShortName>ShortName8</ShortName>
+    <Description>Description8</Description>
+    <Type>8</Type>
+    <EncodedPolyline>EncodedPolyline8</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id9</Id>
+    <ShortName>ShortName9</ShortName>
+    <Description>Description9</Description>
+    <Type>9</Type>
+    <EncodedPolyline>EncodedPolyline9</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id10</Id>
+    <ShortName>ShortName10</ShortName>
+    <Description>Description10</Description>
+    <Type>10</Type>
+    <EncodedPolyline>EncodedPolyline10</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id11</Id>
+    <ShortName>ShortName11</ShortName>
+    <Description>Description11</Description>
+    <Type>11</Type>
+    <EncodedPolyline>EncodedPolyline11</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id12</Id>
+    <ShortName>ShortName12</ShortName>
+    <Description>Description12</Description>
+    <Type>12</Type>
+    <EncodedPolyline>EncodedPolyline12</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id13</Id>
+    <ShortName>ShortName13</ShortName>
+    <Description>Description13</Description>
+    <Type>13</Type>
+    <EncodedPolyline>EncodedPolyline13</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id14</Id>
+    <ShortName>ShortName14</ShortName>
+    <Description>Description14</Description>
+    <Type>14</Type>
+    <EncodedPolyline>EncodedPolyline14</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id15</Id>
+    <ShortName>ShortName15</ShortName>
+    <Description>Description15</Description>
+    <Type>15</Type>
+    <EncodedPolyline>EncodedPolyline15</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id16</Id>
+    <ShortName>ShortName16</ShortName>
+    <Description>Description16</Description>
+    <Type>16</Type>
+    <EncodedPolyline>EncodedPolyline16</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id17</Id>
+    <ShortName>ShortName17</ShortName>
+    <Description>Description17</Description>
+    <Type>17</Type>
+    <EncodedPolyline>EncodedPolyline17</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id18</Id>
+    <ShortName>ShortName18</ShortName>
+    <Description>Description18</Description>
+    <Type>18</Type>
+    <EncodedPolyline>EncodedPolyline18</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+  <BusRoute>
+    <Id>Id19</Id>
+    <ShortName>ShortName19</ShortName>
+    <Description>Description19</Description>
+    <Type>19</Type>
+    <EncodedPolyline>EncodedPolyline19</EncodedPolyline>
+    <ArrivalDepartures />
+  </BusRoute>
+</ArrayOfBusRoute>

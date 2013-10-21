@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAgency xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Agency>
+    <Id>0</Id>
+    <Name>Name0</Name>
+    <TimeZone>TimeZone0</TimeZone>
+    <Language>Language0</Language>
+    <Phone>Phone0</Phone>
+    <Disclaimer>Disclaimer0</Disclaimer>
+    <PrivateService>true</PrivateService>
+  </Agency>
+  <Agency>
+    <Id>1</Id>
+    <Name>Name1</Name>
+    <TimeZone>TimeZone1</TimeZone>
+    <Language>Language1</Language>
+    <Phone>Phone1</Phone>
+    <Disclaimer>Disclaimer1</Disclaimer>
+    <PrivateService>false</PrivateService>
+  </Agency>
+</ArrayOfAgency>

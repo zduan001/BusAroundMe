@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <BusStop>
+    <Id>1_25794</Id>
+    <lat>47.67238240</lat>
+    <lon>-122.30053700</lon>
+    <direction>N</direction>
+    <name>25TH AVE NE &amp; NE 60TH ST</name>
+    <code>25794</code>
+    <locationtype>0         </locationtype>
+  </BusStop>
+  <BusStop>
+    <Id>1_75403</Id>
+    <lat>47.65436550</lat>
+    <lon>-122.30520600</lon>
+    <direction>S</direction>
+    <name>STEVENS WAY &amp; BENTON LN</name>
+    <code>75403</code>
+    <locationtype>0         </locationtype>
+  </BusStop>
+</DocumentElement>

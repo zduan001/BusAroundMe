@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfBusStop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BusStop>
+    <Id>Id0</Id>
+    <Lat>0</Lat>
+    <Lon>0</Lon>
+    <Direction>Direction0</Direction>
+    <Name>Name0</Name>
+    <Code>0</Code>
+    <LocationType>0</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id1</Id>
+    <Lat>1</Lat>
+    <Lon>1</Lon>
+    <Direction>Direction1</Direction>
+    <Name>Name1</Name>
+    <Code>1</Code>
+    <LocationType>1</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id2</Id>
+    <Lat>2</Lat>
+    <Lon>2</Lon>
+    <Direction>Direction2</Direction>
+    <Name>Name2</Name>
+    <Code>2</Code>
+    <LocationType>2</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id3</Id>
+    <Lat>3</Lat>
+    <Lon>3</Lon>
+    <Direction>Direction3</Direction>
+    <Name>Name3</Name>
+    <Code>3</Code>
+    <LocationType>3</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id4</Id>
+    <Lat>4</Lat>
+    <Lon>4</Lon>
+    <Direction>Direction4</Direction>
+    <Name>Name4</Name>
+    <Code>4</Code>
+    <LocationType>4</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id5</Id>
+    <Lat>5</Lat>
+    <Lon>5</Lon>
+    <Direction>Direction5</Direction>
+    <Name>Name5</Name>
+    <Code>5</Code>
+    <LocationType>5</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id6</Id>
+    <Lat>6</Lat>
+    <Lon>6</Lon>
+    <Direction>Direction6</Direction>
+    <Name>Name6</Name>
+    <Code>6</Code>
+    <LocationType>6</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id7</Id>
+    <Lat>7</Lat>
+    <Lon>7</Lon>
+    <Direction>Direction7</Direction>
+    <Name>Name7</Name>
+    <Code>7</Code>
+    <LocationType>7</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id8</Id>
+    <Lat>8</Lat>
+    <Lon>8</Lon>
+    <Direction>Direction8</Direction>
+    <Name>Name8</Name>
+    <Code>8</Code>
+    <LocationType>8</LocationType>
+    <Routes />
+  </BusStop>
+  <BusStop>
+    <Id>Id9</Id>
+    <Lat>9</Lat>
+    <Lon>9</Lon>
+    <Direction>Direction9</Direction>
+    <Name>Name9</Name>
+    <Code>9</Code>
+    <LocationType>9</LocationType>
+    <Routes />
+  </BusStop>
+</ArrayOfBusStop>

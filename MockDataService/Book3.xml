@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DocumentElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SpGetArrivalAndDepartures>
+		<stopId>1_25794</stopId>
+		<lat>47.6723824</lat>
+		<lon>-122.300537</lon>
+		<direction>N</direction>
+		<name>25TH AVE NE &amp; NE 60TH ST</name>
+		<locationtype>0</locationtype>
+		<routeId>1_243</routeId>
+		<shortname>243</shortname>
+		<longname>Jackson Park to Wilburton P&amp;R</longname>
+		<description>Jackson Park to Wilburton P&amp;R</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s243_0_.html</url>
+		<predictedArrivalTime>1340743713000</predictedArrivalTime>
+		<predictedDepartureTime>1340743713000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743749000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743749000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_25794</stopId>
+		<lat>47.6723824</lat>
+		<lon>-122.300537</lon>
+		<direction>N</direction>
+		<name>25TH AVE NE &amp; NE 60TH ST</name>
+		<locationtype>0</locationtype>
+		<routeId>1_68</routeId>
+		<shortname>68</shortname>
+		<longname>Northgate to UW Campus via 25 NE</longname>
+		<description>Northgate to UW Campus via 25 NE</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s068_0_.html</url>
+		<predictedArrivalTime>1340743213000</predictedArrivalTime>
+		<predictedDepartureTime>1340743213000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743152000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743152000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_25794</stopId>
+		<lat>47.6723824</lat>
+		<lon>-122.300537</lon>
+		<direction>N</direction>
+		<name>25TH AVE NE &amp; NE 60TH ST</name>
+		<locationtype>0</locationtype>
+		<routeId>1_68</routeId>
+		<shortname>68</shortname>
+		<longname>Northgate to UW Campus via 25 NE</longname>
+		<description>Northgate to UW Campus via 25 NE</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s068_0_.html</url>
+		<predictedArrivalTime>1340743713000</predictedArrivalTime>
+		<predictedDepartureTime>1340743713000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743749000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743749000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_25794</stopId>
+		<lat>47.6723824</lat>
+		<lon>-122.300537</lon>
+		<direction>N</direction>
+		<name>25TH AVE NE &amp; NE 60TH ST</name>
+		<locationtype>0</locationtype>
+		<routeId>1_83</routeId>
+		<shortname>83</shortname>
+		<longname>Univ Dist/Ravenna Night Owl</longname>
+		<description>Univ Dist/Ravenna Night Owl</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s083_0_.html</url>
+		<predictedArrivalTime>1340743213000</predictedArrivalTime>
+		<predictedDepartureTime>1340743213000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743152000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743152000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_75403</stopId>
+		<lat>47.6543655</lat>
+		<lon>-122.305206</lon>
+		<direction>S</direction>
+		<name>STEVENS WAY &amp; BENTON LN</name>
+		<locationtype>0</locationtype>
+		<routeId>1_25</routeId>
+		<shortname>25</shortname>
+		<longname>Laurelhurst-Lakeview</longname>
+		<description>Laurelhurst-Lakeview</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s025_0_.html</url>
+		<predictedArrivalTime>1340744240000</predictedArrivalTime>
+		<predictedDepartureTime>1340744240000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743830000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743830000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_75403</stopId>
+		<lat>47.6543655</lat>
+		<lon>-122.305206</lon>
+		<direction>S</direction>
+		<name>STEVENS WAY &amp; BENTON LN</name>
+		<locationtype>0</locationtype>
+		<routeId>1_31</routeId>
+		<shortname>31</shortname>
+		<longname>Magnolia to University</longname>
+		<description>Magnolia to University</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s025_0_.html</url>
+		<predictedArrivalTime>1340743213000</predictedArrivalTime>
+		<predictedDepartureTime>1340743213000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743152000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743152000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_75403</stopId>
+		<lat>47.6543655</lat>
+		<lon>-122.305206</lon>
+		<direction>S</direction>
+		<name>STEVENS WAY &amp; BENTON LN</name>
+		<locationtype>0</locationtype>
+		<routeId>1_65</routeId>
+		<shortname>65</shortname>
+		<longname>NTC to UW</longname>
+		<description>NTC to UW</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s065_0_.html&lt;/</url>
+		<predictedArrivalTime>1340744240000</predictedArrivalTime>
+		<predictedDepartureTime>1340744240000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743830000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743830000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_75403</stopId>
+		<lat>47.6543655</lat>
+		<lon>-122.305206</lon>
+		<direction>S</direction>
+		<name>STEVENS WAY &amp; BENTON LN</name>
+		<locationtype>0</locationtype>
+		<routeId>1_68</routeId>
+		<shortname>68</shortname>
+		<longname>Northgate to UW Campus via 25 NE</longname>
+		<description>Northgate to UW Campus via 25 NE</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s068_0_.html</url>
+		<predictedArrivalTime>1340743213000</predictedArrivalTime>
+		<predictedDepartureTime>1340743213000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743152000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743152000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+	<SpGetArrivalAndDepartures>
+		<stopId>1_75403</stopId>
+		<lat>47.6543655</lat>
+		<lon>-122.305206</lon>
+		<direction>S</direction>
+		<name>STEVENS WAY &amp; BENTON LN</name>
+		<locationtype>0</locationtype>
+		<routeId>1_751</routeId>
+		<shortname>75</shortname>
+		<longname>UW - NTC - Ballard</longname>
+		<description>UW - NTC - Ballard</description>
+		<url>http://metro.kingcounty.gov/tops/bus/schedules/s075_0_.html</url>
+		<predictedArrivalTime>1340743713000</predictedArrivalTime>
+		<predictedDepartureTime>1340743713000</predictedDepartureTime>
+		<scheduledArrivalTime>1340743749000</scheduledArrivalTime>
+		<scheduledDepartureTime>1340743749000</scheduledDepartureTime>
+	</SpGetArrivalAndDepartures>
+</DocumentElement>
