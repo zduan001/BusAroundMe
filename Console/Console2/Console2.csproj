@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BE90B28-4A5C-4A72-87BD-54CB03B89FD2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Console2</RootNamespace>
+    <AssemblyName>Console2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="From_001_To_025\001_TaskExcutionEngine.cs" />
+    <Compile Include="From_001_To_025\002_AddingBinary_Round2.cs" />
+    <Compile Include="From_001_To_025\002_Find3Sum.cs" />
+    <Compile Include="From_001_To_025\004_ClimbStairs.cs" />
+    <Compile Include="From_001_To_025\005_Anagrams_Round2.cs" />
+    <Compile Include="From_001_To_025\006_AllSumUp.cs" />
+    <Compile Include="From_001_To_025\006_LongestSubStringWithoutRepeating.cs" />
+    <Compile Include="From_001_To_025\007_CombinationSum.cs" />
+    <Compile Include="From_001_To_025\008_Combination.cs" />
+    <Compile Include="From_001_To_025\009_TreeTravelRelated.cs" />
+    <Compile Include="From_001_To_025\010_ContainerHoldMostWater.cs" />
+    <Compile Include="From_001_To_025\011_CountAndSay.cs" />
+    <Compile Include="From_001_To_025\012_DecodeWay.cs" />
+    <Compile Include="From_001_To_025\013_DivideTwoNumbers.cs" />
+    <Compile Include="From_001_To_025\014_EditDistance.cs" />
+    <Compile Include="From_001_To_025\015_FirstPositiveNumber.cs" />
+    <Compile Include="From_001_To_025\016_Generateparenthesis.cs" />
+    <Compile Include="From_001_To_025\017_GrayCode.cs" />
+    <Compile Include="From_001_To_025\018_StrInStr.cs" />
+    <Compile Include="From_001_To_025\019_InsertIntervals.cs" />
+    <Compile Include="From_001_To_025\020_WordSearch.cs" />
+    <Compile Include="From_001_To_025\021_ContructBSTFromPostOrderArray.cs" />
+    <Compile Include="From_001_To_025\022_IntegerToRoman.cs" />
+    <Compile Include="From_001_To_025\023_JumpGame.cs" />
+    <Compile Include="From_001_To_025\024_LargestRectangleHist.cs" />
+    <Compile Include="From_001_To_025\025_LengthLastWord.cs" />
+    <Compile Include="From_026_To_050\026_PhoneNumberToWord.cs" />
+    <Compile Include="From_026_To_050\027_CommonPrefix.cs" />
+    <Compile Include="From_026_To_050\028_LongestPalindro.cs" />
+    <Compile Include="From_026_To_050\029_LongStringNoRepeat.cs" />
+    <Compile Include="From_026_To_050\030_LongestValideParentheses.cs" />
+    <Compile Include="From_026_To_050\031_MaxSubArray.cs" />
+    <Compile Include="From_026_To_050\032_FindMedianOf2Array.cs" />
+    <Compile Include="From_026_To_050\033_MergeIntervals.cs" />
+    <Compile Include="From_026_To_050\034_MergeKSortedList.cs" />
+    <Compile Include="From_026_To_050\035_Merge2SortedArray.cs" />
+    <Compile Include="From_026_To_050\036_MinSumPath.cs" />
+    <Compile Include="From_026_To_050\037_MinSubStringWindows.cs" />
+    <Compile Include="From_026_To_050\038_MultiplyStrings.cs" />
+    <Compile Include="From_026_To_050\039_8Queens.cs" />
+    <Compile Include="From_026_To_050\040_NextPermutation.cs" />
+    <Compile Include="From_026_To_050\041_IsPalindromeNumber.cs" />
+    <Compile Include="From_026_To_050\042_PartitionList.cs" />
+    <Compile Include="From_026_To_050\043_PascalTriangle.cs" />
+    <Compile Include="From_026_To_050\044_MaxPathInBT.cs" />
+    <Compile Include="From_026_To_050\045_BuyStocks.cs" />
+    <Compile Include="From_026_To_050\046_InorderTraversal.cs" />
+    <Compile Include="From_026_To_050\047_TreeZigZagTraversal.cs" />
+    <Compile Include="From_026_To_050\048_MinDepthOfBinaryTree.cs" />
+    <Compile Include="From_026_To_050\049_InterleavingString.cs" />
+    <Compile Include="From_026_To_050\050_MaxSubArray.cs" />
+    <Compile Include="From_051_To_75\051_FindPathSum.cs" />
+    <Compile Include="From_051_To_75\052_KthPermutation.cs" />
+    <Compile Include="From_051_To_75\053_AllPermutation.cs" />
+    <Compile Include="From_051_To_75\054_PopulateNextRight.cs" />
+    <Compile Include="From_051_To_75\055_RecoverBinaryTree.cs" />
+    <Compile Include="From_051_To_75\056_RegularExpressionMatch.cs" />
+    <Compile Include="From_051_To_75\057_RemoveDupFromSortedArray.cs" />
+    <Compile Include="From_051_To_75\058_RemoveDupFromSortedList.cs" />
+    <Compile Include="From_051_To_75\059_RestoreIP.cs" />
+    <Compile Include="From_051_To_75\060_ReveseInteger.cs" />
+    <Compile Include="From_051_To_75\061_ReverseLinkedList.cs" />
+    <Compile Include="From_051_To_75\062_RomanToInteger.cs" />
+    <Compile Include="From_051_To_75\063_ReverseNodeInKGroup.cs" />
+    <Compile Include="From_051_To_75\064_RotateImage.cs" />
+    <Compile Include="From_051_To_75\065_RotateList.cs" />
+    <Compile Include="From_051_To_75\066_SameTree.cs" />
+    <Compile Include="From_051_To_75\068_ScrambleStrings.cs" />
+    <Compile Include="From_051_To_75\069_Search2DArray.cs" />
+    <Compile Include="From_051_To_75\070_SearchARange.cs" />
+    <Compile Include="From_051_To_75\071_SearchInRotateArray.cs" />
+    <Compile Include="From_051_To_75\072_SearchInsertLocation.cs" />
+    <Compile Include="From_051_To_75\073_SetMatrixZero.cs" />
+    <Compile Include="From_051_To_75\074_SortColors.cs" />
+    <Compile Include="From_051_To_75\075_SpiralMatrix.cs" />
+    <Compile Include="From_076_To_100\076_Sqrt.cs" />
+    <Compile Include="From_076_To_100\077_Subset.cs" />
+    <Compile Include="From_076_To_100\078_ConcatenationOFAllWords.cs" />
+    <Compile Include="From_076_To_100\080_SudokoSolver.cs" />
+    <Compile Include="From_076_To_100\081_SwapNodesInPair.cs" />
+    <Compile Include="From_076_To_100\082_SymetricTree.cs" />
+    <Compile Include="From_076_To_100\083_TextJustification.cs" />
+    <Compile Include="From_076_To_100\084_TrappingRainWater.cs" />
+    <Compile Include="From_076_To_100\085_MinTriangle.cs" />
+    <Compile Include="From_076_To_100\086_UniqueBinaryTree.cs" />
+    <Compile Include="From_076_To_100\087_ValidParentheses.cs" />
+    <Compile Include="From_076_To_100\088_FlattenBinaryTreeToLinkedList.cs" />
+    <Compile Include="From_076_To_100\089_RecoverBST.cs" />
+    <Compile Include="G_Code\G_001_FindKthElement.cs" />
+    <Compile Include="G_Code\G_002_IteratorOfIterator.cs" />
+    <Compile Include="G_Code\G_003_SerializeDeSerializeTree.cs" />
+    <Compile Include="G_Code\G_004_ShortestDistance.cs" />
+    <Compile Include="G_Code\G_005_HateNumber7.cs" />
+    <Compile Include="G_Code\G_006_RandomArray.cs" />
+    <Compile Include="G_Code\G_007_Robot.cs" />
+    <Compile Include="G_Code\G_008_PrePostOrder.cs" />
+    <Compile Include="G_Code\G_009_ReadFile.cs" />
+    <Compile Include="G_Code\G_010_LRU.cs" />
+    <Compile Include="G_Code\G_011_SimplifyPath.cs" />
+    <Compile Include="G_Code\G_012_SkipList.cs" />
+    <Compile Include="G_Code\G_013_allCombination.cs" />
+    <Compile Include="G_Code\G_014_InvervalTree.cs" />
+    <Compile Include="G_Code\G_015_ReverseBinary.cs" />
+    <Compile Include="G_Code\G_016_SeparateArray.cs" />
+    <Compile Include="G_Code\G_017_ReserviorSampling.cs" />
+    <Compile Include="G_Code\G_018_MixStrings.cs" />
+    <Compile Include="G_Code\G_019_SearchString.cs" />
+    <Compile Include="G_Code\G_020_CloneGraph.cs" />
+    <Compile Include="G_Code\G_021_Print2BST.cs" />
+    <Compile Include="G_Code\G_022_BoggleGame.cs" />
+    <Compile Include="G_Code\G_023_LongestWordFromOtherword.cs" />
+    <Compile Include="G_Code\G_024_MediumOfMedium.cs" />
+    <Compile Include="G_Code\G_025_LargestSameSubTree.cs" />
+    <Compile Include="G_Code\G_026_MakePeek.cs" />
+    <Compile Include="G_Code\G_027_ReorderString.cs" />
+    <Compile Include="G_Code\G_028_GoogleSuggestion.cs" />
+    <Compile Include="G_Code\G_030_RememberPhoneNumber.cs" />
+    <Compile Include="G_Code\G_031_SkipACharacter.cs" />
+    <Compile Include="G_Code\G_032_DeleteADoubleB.cs" />
+    <Compile Include="G_Code\G_033_NewQueue.cs" />
+    <Compile Include="G_Code\G_034_CokeMachines.cs" />
+    <Compile Include="G_Code\G_035_IntegerInStrings.cs" />
+    <Compile Include="G_Code\G_036_CombineStrings.cs" />
+    <Compile Include="G_Code\G_037_FindAinB.cs" />
+    <Compile Include="G_Code\G_038_LiveOrDead.cs" />
+    <Compile Include="G_Code\G_039_MySet.cs" />
+    <Compile Include="G_Code\G_040_Distribution.cs" />
+    <Compile Include="G_Code\G_041_DNAinDNA.cs" />
+    <Compile Include="G_Code\G_042_GoogleSuggestion.cs" />
+    <Compile Include="G_Code\G_043_FindRealtives.cs" />
+    <Compile Include="G_Code\G_044_UpdateClosterImage.cs" />
+    <Compile Include="G_Code\G_045_UnkownLengthString.cs" />
+    <Compile Include="G_Code\G_046_KMostShorted.cs" />
+    <Compile Include="G_Code\G_047_MinSum.cs" />
+    <Compile Include="G_Code\G_048_TreeIterator.cs" />
+    <Compile Include="G_Code\G_049_IntersectionOf2SortedArrays.cs" />
+    <Compile Include="G_Code\G_051_PartitionASet.cs" />
+    <Compile Include="G_Code\G_052_BigFiles.cs" />
+    <Compile Include="G_Code\G_053_GenRandomNumber.cs" />
+    <Compile Include="G_Code\G_054_DeppestNode.cs" />
+    <Compile Include="G_Code\G_055_Abbreivation.cs" />
+    <Compile Include="G_Code\G_056_WebCount.cs" />
+    <Compile Include="G_Code\G_057_PrintOddEven.cs" />
+    <Compile Include="G_Code\G_058_MaxIncrease.cs" />
+    <Compile Include="G_Code\G_059_UtilityBill.cs" />
+    <Compile Include="G_Code\G_060_ClosestMNode.cs" />
+    <Compile Include="G_Code\G_061_FindAllCombinations.cs" />
+    <Compile Include="G_Code\G_062_Find3Index.cs" />
+    <Compile Include="G_Code\G_063_FromDictionayToOrder.cs" />
+    <Compile Include="G_Code\G_064_SmallestSlideWindows.cs" />
+    <Compile Include="G_Code\G_065_ClosestNode.cs" />
+    <Compile Include="G_Code\G_066_UniqueCombination.cs" />
+    <Compile Include="G_Code\G_067_MatrixArea.cs" />
+    <Compile Include="G_Code\G_068_MaxInSlideWindows.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recursion\CheapestPay.cs" />
+    <Compile Include="recursion\Rec_01_MagicSquare.cs" />
+    <Compile Include="recursion\Rec_02_AllAnagrams.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86CBACC7-F69C-40E5-9233-D87DC11E4C58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="From_076_To_100\079_SudokuSolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="G_Code\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="G_Code\G_050_IteratorOnPairs.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

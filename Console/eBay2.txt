@@ -1,0 +1,91 @@
+Hello David! My name is Sima. How are you doing? 
+
+public int FindMedian(stream input)
+{
+    if(input == null) throw new ArgumentException()
+
+    public SortedList minHeap = new SortedList();
+    public SortedList maxHeap = new SortedList();
+    
+    int value;
+    while(value = input.getNex())
+    {
+        if(minHeap.Size() == 0 && maxHeap.Size()== 0)
+        {
+            maxHeadp.add(value);
+        }
+        else if(minHeadp.Size() == 0 && maxHeap.Size() ==1)
+        {
+            if (value <= maxHeap.max())
+            {
+                minHeadp.Add(value);
+            }
+            else
+
+            {
+                int tmp = maxHeap.removeMax();
+                minHeap.add(tmp);
+                maxHeadp.add(value);
+            }
+        }
+        
+        
+        if(minHeap.Size() == maxHeap.Size())
+        {
+            if(value >= minHeap.min)
+            {
+                minHeap.Add(value);
+            }
+            else
+            {
+                maxHeap.Add(value);
+            }
+            
+        }
+        else if(minHeap.Size() > maxHeap.Size())
+        {
+         if(value >= minHeap.min)
+         {
+             int temp = minHeap.RemoveMin();
+             maxHeap.add(temp);
+             minHeadp.add(value);
+         }
+         else
+         {
+             maxHeap.add(value);
+         }
+        }
+        else
+        {
+            if(value >minHeap.Min())
+            {
+                minHeap.add(value);
+
+            }
+            else
+            {
+                int tmp = maxHeap.revmoceMax());
+                minHeap.Add(tmp);
+                maxHead.add(value);
+            }
+        
+        }
+        
+    }
+    if(minheadp.size() > maxHeap.size())
+    {
+        return minHeap.Min;
+    }
+    else if(maxHeap.size() > minHeadp.Size())
+    {
+        return maxheap.Max;
+    }
+    else
+
+        {
+        int res = (minHeadp.Min + maxHeap.Max)/2;
+        return res;
+    }
+    
+    
+}

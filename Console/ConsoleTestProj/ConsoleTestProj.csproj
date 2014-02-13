@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BA4002A-D436-4550-8BB0-7C141BC74518}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleTestProj</RootNamespace>
+    <AssemblyName>ConsoleTestProj</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBinaryTest.cs" />
+    <Compile Include="DP_001_LongestPalindromicSubStringTest.cs" />
+    <Compile Include="LinkListNodeTest.cs" />
+    <Compile Include="ProgramTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rec_02_AllAnagramsTest.cs" />
+    <Compile Include="TreeNodeTest.cs" />
+    <Compile Include="_001_TaskExcutionEngineTest.cs" />
+    <Compile Include="_002_AddingBinary_Round2Test.cs" />
+    <Compile Include="_002_Find3Sum_Round2Test.cs" />
+    <Compile Include="_003_AddLinkListTest.cs" />
+    <Compile Include="_003_CoinsInaLineTest.cs" />
+    <Compile Include="_004_ClimbStairsTest.cs" />
+    <Compile Include="_004_ClimbStairs_Round2Test.cs" />
+    <Compile Include="_005_CombinationSumTest.cs" />
+    <Compile Include="_005_KnapsackTest.cs" />
+    <Compile Include="_006_AnagramTest.cs" />
+    <Compile Include="_006_ValidWordsTest.cs" />
+    <Compile Include="_007_CombinationSumTest.cs" />
+    <Compile Include="_007_ContainerWithMostWaterTest.cs" />
+    <Compile Include="_008_CombinationTest.cs" />
+    <Compile Include="_008_Combination_Round2Test.cs" />
+    <Compile Include="_008_ConverToBinaryTreeTest.cs" />
+    <Compile Include="_009DecodeWayTest.cs" />
+    <Compile Include="_009_TreeTravelRelatedTest.cs" />
+    <Compile Include="_010_MinEditDistanceTest.cs" />
+    <Compile Include="_011_CountAndSayTest.cs" />
+    <Compile Include="_011_GenerateParentheseTest.cs" />
+    <Compile Include="_012_DecodeWayTest.cs" />
+    <Compile Include="_012_GrayCodeTest.cs" />
+    <Compile Include="_013_DivideTwoNumbersTest.cs" />
+    <Compile Include="_013_FirstMissingPositiveTest.cs" />
+    <Compile Include="_014_DistinctSubsequencesTest.cs" />
+    <Compile Include="_014_EditDistanceTest.cs" />
+    <Compile Include="_015_DivideTwoNumberTest.cs" />
+    <Compile Include="_015_FirstPositiveNumberTest.cs" />
+    <Compile Include="_016_GenerateparenthesisTest.cs" />
+    <Compile Include="_016_ImplementStrStrTest.cs" />
+    <Compile Include="_017_GrayCodeTest.cs" />
+    <Compile Include="_017_InsertIntervalTest.cs" />
+    <Compile Include="_018_StrInStrTest.cs" />
+    <Compile Include="_019_BuySellStocksTest.cs" />
+    <Compile Include="_019_InsertIntervalsTest.cs" />
+    <Compile Include="_020_MultiplyStringsTest.cs" />
+    <Compile Include="_021_MinimumWindowsSubstringTest.cs" />
+    <Compile Include="_022__MinSumPathTest.cs" />
+    <Compile Include="_023_Merge2SortedLinkListTest.cs" />
+    <Compile Include="_024_LongestIncreaseSubSeqTest.cs" />
+    <Compile Include="_026_MaxSubArrayTest.cs" />
+    <Compile Include="_028_FindKthElementTest.cs" />
+    <Compile Include="_029_FindSqureRootTest.cs" />
+    <Compile Include="_030_PrintAllStringsTest.cs" />
+    <Compile Include="_031_AllCombinationCoinsTest.cs" />
+    <Compile Include="_032_CaculateTreeTest.cs" />
+    <Compile Include="_033_LongestValidParenthesisTest.cs" />
+    <Compile Include="_034_RegularExpressionMatchingTest.cs" />
+    <Compile Include="_035_BinaryTreeMaximumSumPathTest.cs" />
+    <Compile Include="_036_CombinationsTest.cs" />
+    <Compile Include="_037_permutationTest.cs" />
+    <Compile Include="_038_AddOneTest.cs" />
+    <Compile Include="_040_RegularExpressionTest.cs" />
+    <Compile Include="_041_RemoveDuplicateItemInArrayTest.cs" />
+    <Compile Include="_042_RemoveElementTest.cs" />
+    <Compile Include="_043_ReverseIntegerTest.cs" />
+    <Compile Include="_044_SubsetsTest.cs" />
+    <Compile Include="_045_SpiralMatrixTest.cs" />
+    <Compile Include="_046_AtoITest.cs" />
+    <Compile Include="_047_SortColorTest.cs" />
+    <Compile Include="_049_SetMatrixZeroTest.cs" />
+    <Compile Include="_050_FindInsertLocationTest.cs" />
+    <Compile Include="_051_SearchInRotatedSortedArrayTest.cs" />
+    <Compile Include="_052_SearchForARangeTest.cs" />
+    <Compile Include="_053_Search2DMatrixTest.cs" />
+    <Compile Include="_054_SameTreeTest.cs" />
+    <Compile Include="_055_ScrambleStringTest.cs" />
+    <Compile Include="_056_RotateListTest.cs" />
+    <Compile Include="_057_RestoreIPAddressTest.cs" />
+    <Compile Include="_060_RomanToIntegerTest.cs" />
+    <Compile Include="_063_SwapNodesInPairsTest.cs" />
+    <Compile Include="_064_TextJustificationTest.cs" />
+    <Compile Include="_065_TrappingRainWaterTest.cs" />
+    <Compile Include="_066_TwoSumTest.cs" />
+    <Compile Include="_068_UniquePathTest.cs" />
+    <Compile Include="_070_ValidParenthesesTest.cs" />
+    <Compile Include="_073_WordSearchTest.cs" />
+    <Compile Include="_076_MinCoinTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\3sum.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3sum\console.csproj">
+      <Project>{EE098393-B22D-4040-9978-E55B7D69EE6E}</Project>
+      <Name>console</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Console2\Console2.csproj">
+      <Project>{2BE90B28-4A5C-4A72-87BD-54CB03B89FD2}</Project>
+      <Name>Console2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86CBACC7-F69C-40E5-9233-D87DC11E4C58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

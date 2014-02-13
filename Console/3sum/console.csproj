@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE098393-B22D-4040-9978-E55B7D69EE6E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>console</RootNamespace>
+    <AssemblyName>3sum</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="002_AddBinary.cs" />
+    <Compile Include="001_3sum.cs" />
+    <Compile Include="003_AddLinkList.cs" />
+    <Compile Include="004_ClimbStairs.cs" />
+    <Compile Include="005_CombinationSum.cs" />
+    <Compile Include="006_Anagram.cs" />
+    <Compile Include="007_ContainerWithMostWater.cs" />
+    <Compile Include="008_ConverToBinaryTree.cs" />
+    <Compile Include="009_DecodeWay.cs" />
+    <Compile Include="010_MinEditDistance.cs" />
+    <Compile Include="011_GenerateParenthese.cs" />
+    <Compile Include="012_GrayCode.cs" />
+    <Compile Include="013_FirstMissingPositive.cs" />
+    <Compile Include="014_DistinctSubsequences.cs" />
+    <Compile Include="015_DivideTwoNumber.cs" />
+    <Compile Include="016_ImplementStrStr.cs" />
+    <Compile Include="017_InsertInterval.cs" />
+    <Compile Include="018_RotateANByNArray.cs" />
+    <Compile Include="019_BuySellStocks.cs" />
+    <Compile Include="020_MultiplyStrings.cs" />
+    <Compile Include="021_MinimumWindowsSubstring.cs" />
+    <Compile Include="022_ MinSumPath.cs" />
+    <Compile Include="023_Merge2SortedLinkList.cs" />
+    <Compile Include="024_LongestIncreaseSubSeq.cs" />
+    <Compile Include="025_MedianOf2SortedArray.cs" />
+    <Compile Include="026_MaxSubArray.cs" />
+    <Compile Include="027_MaxSubMatrix.cs" />
+    <Compile Include="028_FindKthElement.cs" />
+    <Compile Include="029_FindSqureRoot.cs" />
+    <Compile Include="030_PrintAllStrings.cs" />
+    <Compile Include="031_AllCombinationCoins.cs" />
+    <Compile Include="032_CaculateTree.cs" />
+    <Compile Include="033_LongestValidParenthesis.cs" />
+    <Compile Include="034_RegularExpressionMatching.cs" />
+    <Compile Include="035_BinaryTreeMaximumSumPath.cs" />
+    <Compile Include="036_Combinations.cs" />
+    <Compile Include="037_permutation.cs" />
+    <Compile Include="038_AddOne.cs" />
+    <Compile Include="040_PowerOfN.cs" />
+    <Compile Include="040_RegularExpression.cs" />
+    <Compile Include="041_RemoveDuplicateItemInArray.cs" />
+    <Compile Include="042_RemoveElement.cs" />
+    <Compile Include="043_ReverseInteger.cs" />
+    <Compile Include="044_Subsets.cs" />
+    <Compile Include="045_SpiralMatrix.cs" />
+    <Compile Include="046_AtoI.cs" />
+    <Compile Include="047_SortColor.cs" />
+    <Compile Include="048_SimplyPath.cs" />
+    <Compile Include="049_SetMatrixZero.cs" />
+    <Compile Include="050_FindInsertLocation.cs" />
+    <Compile Include="051_SearchInRotatedSortedArray.cs" />
+    <Compile Include="052_SearchForARange.cs" />
+    <Compile Include="053_Search2DMatrix.cs" />
+    <Compile Include="054_SameTree.cs" />
+    <Compile Include="055_ScrambleString.cs" />
+    <Compile Include="056_RotateList.cs" />
+    <Compile Include="057_RestoreIPAddress.cs" />
+    <Compile Include="058_RotateImage.cs" />
+    <Compile Include="060_RomanToInteger.cs" />
+    <Compile Include="061_SubStringWithConcatenationOfAllWords.cs" />
+    <Compile Include="062_SudokuSolver.cs" />
+    <Compile Include="063_SwapNodesInPairs.cs" />
+    <Compile Include="064_TextJustification.cs" />
+    <Compile Include="065_TrappingRainWater.cs" />
+    <Compile Include="066_TwoSum.cs" />
+    <Compile Include="067_UniqueBinarySearchTree.cs" />
+    <Compile Include="068_UniquePath.cs" />
+    <Compile Include="069_ValidNumber.cs" />
+    <Compile Include="070_ValidParentheses.cs" />
+    <Compile Include="071_ValidSudoku.cs" />
+    <Compile Include="072_WildcardMatching.cs" />
+    <Compile Include="073_WordSearch.cs" />
+    <Compile Include="074_ZigzagConversion.cs" />
+    <Compile Include="076_MinCoin.cs" />
+    <Compile Include="077_MaxSubMatrix.cs" />
+    <Compile Include="DP\001_LongestPalindromicSubString.cs" />
+    <Compile Include="DP\002_PainterPartitionProblem.cs" />
+    <Compile Include="DP\003_CoinsInaLine.cs" />
+    <Compile Include="DP\004_MultiplicationOfNumbers.cs" />
+    <Compile Include="DP\005_Knapsack.cs" />
+    <Compile Include="DP\006_ValidWords.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86CBACC7-F69C-40E5-9233-D87DC11E4C58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="permutation..etc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

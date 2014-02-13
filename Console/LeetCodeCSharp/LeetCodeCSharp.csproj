@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39E32356-109A-45C1-BC1A-1DBA20E14A41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeetCodeCSharp</RootNamespace>
+    <AssemblyName>LeetCodeCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="001_smallestcutPalindrom.cs" />
+    <Compile Include="002_FloodSurroundArea.cs" />
+    <Compile Include="003_LongestConsectiveSequence.cs" />
+    <Compile Include="004_SumRoottoLeafNumbers.cs" />
+    <Compile Include="005_WordLadder.cs" />
+    <Compile Include="006_ValidPalindrome.cs" />
+    <Compile Include="007_BinaryTreeMaxPathSum.cs" />
+    <Compile Include="008_BuyStockIII.cs" />
+    <Compile Include="009_Triangle.cs" />
+    <Compile Include="010_PascalTriangle.cs" />
+    <Compile Include="011_PopuldateNextRight.cs" />
+    <Compile Include="012_InterleaveSortString.cs" />
+    <Compile Include="013_distinctSequence.cs" />
+    <Compile Include="014_FlattenBinaryTree.cs" />
+    <Compile Include="015_MinDepth.cs" />
+    <Compile Include="016_PathSum.cs" />
+    <Compile Include="017_ConvertSortedListToBST.cs" />
+    <Compile Include="018_BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="019_IsBalanceTree.cs" />
+    <Compile Include="020_ConvertPreOrderInOrderToTree.cs" />
+    <Compile Include="021_ZigzagTree.cs" />
+    <Compile Include="023_SameTree.cs" />
+    <Compile Include="024_RecoverBST.cs" />
+    <Compile Include="025_InterLeavingString.cs" />
+    <Compile Include="026_UniqueBinarySearchTree.cs" />
+    <Compile Include="027_InOrderTraversal.cs" />
+    <Compile Include="028_RestoreIPAddress.cs" />
+    <Compile Include="030_ReverseLinkedList.cs" />
+    <Compile Include="031_SubSetsII.cs" />
+    <Compile Include="032_DecodeWays.cs" />
+    <Compile Include="032_RestCodes.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DicussionQuestions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseClass\BaseClass.csproj">
+      <Project>{72068327-586e-4e9c-b1a3-fe93d1d76b12}</Project>
+      <Name>BaseClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86cbacc7-f69c-40e5-9233-d87dc11e4c58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="022_IsASymmetricTree.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

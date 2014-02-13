@@ -1,0 +1,70 @@
+SOAP Vs REST
+
+HashMap
+
+public class HashMap<T, P>
+{
+	List<KeyValuePair<T,P>>[] array;
+	public HashMap()
+{
+array = new [n];
+}
+
+public void Add(T key, P value)
+{
+	if(key == null) throw new exception();
+	
+KeyValuePair<T,P> input = new KeyValue<T,p>(key, vlaue);
+int index = hash(key);
+if(array[index] == null)
+{
+ array[index] = new List<KeyValuePair<T,P>>() {input};
+}
+else
+{
+	bool containedAlready = false;
+	foreach(KeyValuePair<T,P> item in array[index])
+{
+if(item.Value == value)
+{
+containedAlready = true;
+break;
+}
+}
+if(!containedAlready)
+{
+array[index].Add(input);
+}
+
+}
+
+public P getValue(T key)
+{
+	
+int index = hash(key)
+if(array[index] == null)
+{
+return null;
+}
+else
+{
+foreach(KeyValuePair<T,P> item in array[index])
+{
+if(item.key = key)
+{
+return item.value;
+}
+}
+return null;
+}
+}
+
+}
+
+}
+
+O(1)
+O(n log(n))
+O(log(n^2))
+
+{ts:sxx, EBAY:54},{ 

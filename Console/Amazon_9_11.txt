@@ -1,0 +1,30 @@
+int CountWords(string s)
+{
+    if(s.Length == 0) return 0;
+    int count = IsSpace(s[0])? 0:1;
+    for(int i = 1;i<s.Length;i++)
+    {
+        if(IsSpae(s[i-1]) && !IsSpace(s[i]))
+        {
+            count++
+        }
+    }
+    return count;
+}
+
+bool IsSpace(char c)
+{
+    if(c == '/t' || c== '/n' || c== '/r' || c== ' ')
+    {
+    return true;
+    }
+    return false;
+}
+
+
+/t,/n, /r
+1. "    " 0
+2. "sdfsd " 1
+3. "afsa sdafsadf sdfsdf" 3
+4. "afsa sdafasdf     " 2
+     

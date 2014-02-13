@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DF999C9-7E86-414A-9CC6-6792DAF23F80}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CareerCup150</RootNamespace>
+    <AssemblyName>CareerCup150</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chapter19_Medium\19_05_MasterMind.cs" />
+    <Compile Include="Chapter19_Medium\19_06_NumberToWord.cs" />
+    <Compile Include="Chapter19_Medium\19_08_FrequentOfAWord.cs" />
+    <Compile Include="Chapter19_Medium\19_10_GenerateRandNumber.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_01_DetermineIfAllUniqueChars.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_03_RemoveDupFromString.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_02_ReverseString.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_04_VerifyAnagrams.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_05_ExpandString.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_06_Rotate2DArray.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_07_SetRowColumn.cs" />
+    <Compile Include="Chapter1_ArraysAndStrings\01_08_CheckRotateString.cs" />
+    <Compile Include="Chapter20_hard\20_01_AddWithoutplus.cs" />
+    <Compile Include="Chapter20_hard\20_02_ShaffleCards.cs" />
+    <Compile Include="Chapter20_hard\20_03_GenerateNnumber.cs" />
+    <Compile Include="Chapter20_hard\20_06_FirstMillion.cs" />
+    <Compile Include="Chapter20_hard\20_11_blackBoarder.cs" />
+    <Compile Include="Chapter20_hard\20_4_Count2s.cs" />
+    <Compile Include="Chapter20_hard\20_12_MaxSubMatrix.cs" />
+    <Compile Include="Chapter2_LinkedList\02_01_RemoveDup.cs" />
+    <Compile Include="Chapter2_LinkedList\02_02_FindNthLast.cs" />
+    <Compile Include="Chapter2_LinkedList\02_03_DeleteMidNode.cs" />
+    <Compile Include="Chapter2_LinkedList\02_05_HeadofCircular.cs" />
+    <Compile Include="Chapter2_LinkedList\02_04_AddLinkedList.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_01_ThreeStacksInOneArray.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_02_StackWithMinFunction.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_03_SetOfStacks.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_04_TowerOfHanoi.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_05_MyQueue.cs" />
+    <Compile Include="Chapter3_StacksAndQueues\03_06_SortStack.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_01_CheckBalance.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_02_DriectGraph.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_03_CreateMinHeighTree.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_04_CreateSiblingList.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_05_FindNextNode.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_06_LCA.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_07_IsSubTree.cs" />
+    <Compile Include="Chapter4_TreeGraph\04_08_SumPath.cs" />
+    <Compile Include="Chapter5_BitOperation\05_01_BitWise.cs" />
+    <Compile Include="Chapter8_Recursion\08_03_AllSubSet.cs" />
+    <Compile Include="Chapter8_Recursion\08_04_AllPermutation.cs" />
+    <Compile Include="Chapter8_Recursion\08_05_PrintNPairsParentheses.cs" />
+    <Compile Include="Chapter8_Recursion\08_06_PaintAll.cs" />
+    <Compile Include="Chapter8_Recursion\08_07_Coins.cs" />
+    <Compile Include="Chapter8_Recursion\08_08_EightQueen.cs" />
+    <Compile Include="Chapter9_SortingSearch\09_01_MergeSortedArray.cs" />
+    <Compile Include="Chapter9_SortingSearch\09_03_RotateArray.cs" />
+    <Compile Include="Chapter9_SortingSearch\09_04_BigDataSort.cs" />
+    <Compile Include="Chapter9_SortingSearch\09_05_EmtpyStrings.cs" />
+    <Compile Include="Chapter9_SortingSearch\09_06_FindIn2DArray.cs" />
+    <Compile Include="Chapter19_Medium\19_01_SwapWithOutAdditional.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86CBACC7-F69C-40E5-9233-D87DC11E4C58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,63 @@
+S E R S
+P A T G
+L I N E
+S E R S
+
+public List<string> FindAllWords(char[,] input, int n, HashSet<string> dictionary)
+{
+    if(n<3) return null;
+    List<point> res = new List<point>();
+    Stack<point> s = new Stack<point>();
+    //Stack<point> visited = new Stack<point>();
+    
+    for(int i = 0;i< n i++)
+    {
+        for(int j = 0; j<n; j++)
+        {
+            s.clear();
+            s.push(new point(i,j));
+            chart visited;
+            while(s.count <= n*n && s.count != 0)
+            {
+                if(s.count < 3) continue;
+                if( Validate(s, dictionary, input) )
+                {
+                    res.addword(s);
+                }
+                
+                p = s.Peek();
+                
+                // looking for last direction of this node. start from next direction
+                // if back top ignore this node totally...
+                swtich(p.direction)
+                {
+                }
+                // top 
+                if(p.x -1 >=0 && !s.contain(new point(p.x-1, p.y) && new Point(px-1,y) != visited)
+                {
+                    s.push(new Point(point.x-1, point.y));
+                    visisted = null;
+                    continune;
+                }
+                // up right
+                
+                //right
+                // lower right
+                ...
+                ..                
+                visited = s.pop();
+            }
+        }
+    }
+    
+    return res;
+
+}
+
+public class point
+{
+    public int x; 
+    public int y;
+    public Enum direction.
+}
+

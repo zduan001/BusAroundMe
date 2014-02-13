@@ -1,0 +1,46 @@
+http://collabedit.com/qmn49
+G = 
+{
+[N0, …, Nn]
+}
+
+N =
+{
+Data data;
+[&N0, ..., &Ni];
+}
+
+public class Node
+{
+ public int Data;
+ public List<Node> neighbors;
+}
+
+public class Graph
+[
+public List<Node> Nodes;
+};
+
+
+
+public Graph(Graph input) //O(n+e)
+{
+ this.Nodes = new List<Node>();
+ HashTable<Node, Node> hashSet = new HashSet<Node, NOde>();
+ foreach(Node n in input.Nodes) 
+ {
+     Node tmp = new Nodes();
+     tmp.data = n.data;
+     tmp.neighbors = new List<NOde>();
+     hashset.add(n, tmp);
+     this.Nodes.add(tmp);
+  } 
+  
+  foreach(Node n in hasSet.Keys)
+  {
+      foreach(node m in hashSet.Keys[n].neighbors) 
+      {
+          hashset[n].neibors.add(hashSet[m]);
+      }
+  }
+}

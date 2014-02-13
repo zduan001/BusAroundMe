@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{588DDB2C-9216-4218-B0CA-008ED820536E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlgorithmsChapter1</RootNamespace>
+    <AssemblyName>AlgorithmsChapter1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1_1_12_Theresult.cs" />
+    <Compile Include="1_1_13_TranspositionArray.cs" />
+    <Compile Include="1_1_09_PrintBinary.cs" />
+    <Compile Include="1_1_14_Lg.cs" />
+    <Compile Include="1_1_15_Histogram.cs" />
+    <Compile Include="1_1_16_EXR1.cs" />
+    <Compile Include="1_1_20_ln.cs" />
+    <Compile Include="1_1_21_FindGCD.cs" />
+    <Compile Include="1_1_27_BinomialDistribution.cs" />
+    <Compile Include="1_1_28_RemoveDup.cs" />
+    <Compile Include="1_1_29_FindEqualKey.cs" />
+    <Compile Include="1_1_30_ArrayExcercise.cs" />
+    <Compile Include="1_1_33_MatrixLib.cs" />
+    <Compile Include="1_1_35_DiceSimulation.cs" />
+    <Compile Include="1_1_36_Shuffle.cs" />
+    <Compile Include="1_2_1_Point2d.cs" />
+    <Compile Include="1_2_2_Interval1D.cs" />
+    <Compile Include="1_2_6_CircularShift.cs" />
+    <Compile Include="1_2_7_MysteryMethod.cs" />
+    <Compile Include="1_3_10_InfixToPostfix.cs" />
+    <Compile Include="1_3_11_EvaluatePostFix.cs" />
+    <Compile Include="1_3_41_CopyQueue.cs" />
+    <Compile Include="1_3_42_CopyStack.cs" />
+    <Compile Include="1_3_29_NewQueue.cs" />
+    <Compile Include="1_3_32_Steque.cs" />
+    <Compile Include="1_3_3_ValidStackOutPut.cs" />
+    <Compile Include="1_3_4_ValideParentheses.cs" />
+    <Compile Include="1_3_5_BinaryOfAnumber.cs" />
+    <Compile Include="1_3_6_WhatDoesFollowingCodeDo.cs" />
+    <Compile Include="1_3_7_ImplementPeek.cs" />
+    <Compile Include="1_5_1_UnionFinder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infra\Infra.csproj">
+      <Project>{86cbacc7-f69c-40e5-9233-d87dc11e4c58}</Project>
+      <Name>Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

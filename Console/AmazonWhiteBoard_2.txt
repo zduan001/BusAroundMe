@@ -1,0 +1,84 @@
+   2
+ A - B
+ \1 /4
+6| C |5
+ 9/ \7
+ D - E - F
+   1   2
+   
+public Hashset<Edge> FindShortTotalEdge(list<Edge> allEdges, int totalNodes)
+{
+    if(allEdges == nuLL || allEdges.Count == 0) return null;
+    
+    allEdges.Sort();
+    HashSet<Edge> res = new  HashSet<Edge>();
+    HashSet<Node> nodes = new HasSet<nodes>();
+
+    // add the shortest path first
+    res.Add(allEdges[0]);
+    nodes.Add(allEdges[0].node1);
+    nodes.Add(allEdges[0].node2);
+    
+    minHeap = CreatMinHeap(nodes);
+    
+    while(nodes.Count < totalNodes)
+    {
+    
+        if(!nodes.Contain(minheap[0].node1) && nodes.Contain(minheap[0].node2))
+        {
+            nodes.Add(node1);
+            res.Add(minHeapd[0]);
+            
+            
+        }
+        else if(nodes.Contain(minheap[0].node1) && !nodes.Contain(minheap[0].node2))
+        {
+            nodes.Add(node2);
+            res.Add(minHeapd[0]);
+        }
+        foreach(Edge e in AllEdges)
+        {
+            if(!(nodes.contians(e.node1) && nodes.contains(e.node2 )) && (node.contains(e.node1) || (node.contains(e.node2))))
+            {
+                minHeapd(add(e))
+            }
+        }
+
+/*        //List<Edge> tmp = new List<Edge>();
+        
+        //foreach(Edge e in AllEdges)
+        //{
+        //    if(nodes.Contains(e.node1) && !nodes.Contains(e.node2))
+            {
+                tmp.add(e);
+            }
+            if(!nodes.Contains(e.node1) && nodes.Contains(e.node2))
+            {
+                tmp.add(e);
+            }
+        }
+        
+        tmp.sort();
+      
+
+        res.Add(tmp[0]);
+        if(!nodes.Contains(tmp[0].node1) nodes.Add(tmp[0].node1);
+        if(!nodes.Contains(tmp[0].node2) nodes.Add(tmp[0].node2);
+          */
+     }
+     
+     return res;
+    
+}
+
+
+public Calss Node{
+}
+
+
+public class Edge{
+    public Node node1;
+    public Node node2;
+    public int weight;
+    
+}
